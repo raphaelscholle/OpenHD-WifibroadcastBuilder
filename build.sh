@@ -32,7 +32,7 @@ init
 setup_platform_env
 
 cd $WBC_DIR
-apt install -y libsodium-dev libpcap-dev git nano build-essential
+sudo apt install -y libsodium-dev libpcap-dev git nano build-essential
 git clone https://github.com/Consti10/wifibroadcast.git
 cd wifibroadcast
 make
