@@ -36,6 +36,7 @@ function package() {
 
     if [[ "${ONLINE}" == "ONLINE" ]]; then
        
+	cd $SRC_DIR
 	if [[ "${PLATFORM}" == "jetson" ]]; then
 	    git describe --exact-match HEAD >/dev/null 2>&1
             echo "Pushing package to OpenHD repository"
