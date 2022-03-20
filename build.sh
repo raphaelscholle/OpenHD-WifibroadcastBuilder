@@ -1,7 +1,8 @@
 #!/bin/bash
 
 PLATFORM=$1
-ONLINE=$2
+DISTRO=$2
+ONLINE=$3
 
 if  [[ "${PLATFORM}" != "pi" ]] && [[ "${PLATFORM}" != "jetson" ]];  then
     echo "Usage: ./build.sh pi ONLINE"
