@@ -51,3 +51,4 @@ rm -Rf package workdir
 
 # Show cache stats
 ccache -s
+cloudsmith token
